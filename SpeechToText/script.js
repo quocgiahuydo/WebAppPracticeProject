@@ -35,7 +35,7 @@ function processResult(results){
     let interTranscript ='';
     for(let i =0; i < results.length; i++){
         let transcript = results[i][0].transcript;
-        transcript.replace("\n","br");
+        transcript=transcript.replace("\n","br");
 
         if(results[i].isFinal){
             finalTranscript += transcript;

@@ -42,7 +42,7 @@ h1{
     color:#333
 }
 .white:active{
-    background-color: #b61818;
+    background-color: #CCC;
 }
 .black{
     --width:60px;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Top-Level Page</title>
+
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    iframe {
+      border: 5px solid blue;
+      width: 90%;
+      height: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TOP-LEVEL PAGE: index.html</h1>
+
+  <p>
+    Blue background means you are viewing the main browser page.
+  </p>
+
+  <iframe
+    src="outer-frame.html"
+    title="Outer iframe"
+  ></iframe>
+</body>
+</html>

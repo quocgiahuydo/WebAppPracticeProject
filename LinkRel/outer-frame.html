@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Outer Frame</title>
+
+  <style>
+    body {
+      background-color: lightgreen;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    iframe {
+      border: 5px solid green;
+      width: 90%;
+      height: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>OUTER IFRAME: outer-frame.html</h2>
+
+  <p>
+    Green background means you are inside the first iframe.
+  </p>
+
+  <iframe
+    src="inner-frame.html"
+    title="Inner iframe"
+  ></iframe>
+</body>
+</html>
